@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="./Imagens/icon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <title>Convite para Rosa Negra</title>
+</head>
+
+<body>
+    <!--Colocando font externas com @fonte face-->
+    <style>
+
+        @font-face { 
+            font-family: beau;
+            src: url('./Fonts/Beaufort\ for\ LOL\ Bold.ttf') format('truetype');
+        }
+    </style>
+
+    <div class="container"> <!--tamanho limitado para aumetnar até um certo ponto-->
+        <header>
+            <h1 class="title">A Rosa Negra</h1>
+            <h2 class="subtitle">todos queremos a mesma coisa...</h2>
+        </header>
+
+        <section>
+            <div class="formContainer"> <!--TUDO DE CONTEUDO PRICNIPAL TA AQUI-->
+                <h2 class="h2form">A Rosa Negra</h2>
+                <p class="pform">Rosa Negra é uma comunidade governamental secreta de Noxus, na qual é liderada por LeBlanc, a Moça Pálida, e os mais poderosos e mais ricos são atraídos por seu meio, a Rosa Negra secretamente lidera Noxus, através de LeBlanc.
+                LeBlanc é a cabeça principal de Noxus, então eu tenho certeza que esse convite,não foi por acaso...</p>
+
+                <form>
+                    <input id="nome" type="text" name="Nome" placeholder="Nome de Invocador">
+
+                    <input id="lane" type="text" name="Lanes" placeholder="Lanes">
+
+                    <select name="regiao">
+                        <option value="Noxus">Noxus</option>
+                        <option value="Demacia">Demacia</option>
+                        <option value="Piltover">Piltover</option>
+                    </select>
+
+                    <input type="submit" value="Assine Com Sangue">
+                </form>
+            </div>
+        </section>
+        <br><br>
+    <!--dentro da div container coloco o footer-->
+            <footer> <!--CONTA COMO SE FOSS EUMA DIV -->
+        
+                <div class="bio">
+                    <h1 class="h1footer">Le Blanc</h1>
+                    
+                    <h2 class="h2footer">a Farsante</h2>
+
+                    <h3 class="h3footer">Matrona da Rosa Negra</h3>
+
+                    <p class="pfooter">A identidade de LeBlanc, a matrona da Rosa Negra, é tão intangível quanto os sussurros que a descrevem, tão efêmera quanto as ilusões que lhe dão forma. Talvez nem mesmo ela a conheça, depois de tantos séculos de imitações e artimanhas...</p>
+                
+                    <p class="pfooter">Restos de uma ordem cuja existência em muito ultrapassa a de Noxus, iniciados na Rosa Negra têm conspirado nas sombras por séculos, atraindo os ricos e poderosos para seu meio. </p>
+                </div>
+
+                <img class="lb" src="./Imagens/lb1.png" alt="#">
+            </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,160 @@
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: beau;
+}
+body{
+    background-image: url(../Imagens/bastiao.png);
+    zoom: 75%; /*otima propriedade*/
+   background-repeat: no-repeat;
+   background-size: cover;
+ /*  background-color: black;*/
+}
+.container{ /* limitar todo o conteudo*/
+    max-width: 1000px; /*vai até 1000px do jeito que está*/
+    margin: auto; /*centralizar todos os elementos fica: nada|conteudo|nada*/
+    
+    
+}
+
+header{
+    background-color: rgb(88, 18, 168);
+    text-align: center; /* tudo que está no header alinhado*/
+    padding: 10px; /*estou aumentando o tamanho da caixa header*/
+    
+}
+
+.title {
+    margin: 0;
+    color: #f0e6d2;
+    font-size: 3.2em;
+    
+    font-weight: 700;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+}
+
+.subtitle{
+   
+    color: #937341;
+    text-shadow: 0 0 20px rgb(1 10 19 / 70%);
+    font-weight: 700;
+    letter-spacing: .05em;
+    
+    font-size: 19px;
+    margin-top: 11px;
+    text-transform: uppercase;
+}
+
+section{ /* to passando os atributos do fundo do meu campo principal*/
+    padding: 20px; /* form estava colado*/
+    background-image: url(../Imagens/le\ blanc2.png); /*colcoar a imagem*/ /*ela fica flutuando por culpa do float*/
+    background-size: cover; /*cover coloca o tamanho original para cobrir a div*/
+    overflow: hidden; /*resolve o problema do float */ /*iamgme fica certa*/
+}
+.formContainer{ /*começar limitando o espaço do form*/
+   max-width: 300px; /*começar limitando o espaço do form*/
+   background-color:#1b18183d ;
+   padding: 20px; /*dar espaço para os elemntos dentro do containerform*/
+   float: left; /*colocar ele la na direita*/
+   border-radius: 5px;
+}
+
+.h2form{ /*modifiquei do jeito que eue queria o h2*/
+    margin-bottom: 15px; /*ter o espaçamento enrte o h2 e p*/
+    text-align:center;
+    font-size: 2.2em;
+    color: #8b0000;
+    text-transform: uppercase;
+}
+
+.pform{
+    margin-bottom: 15px;
+    color: #f0e6d2;
+    font-size: 18px;
+    text-align: left;
+    
+}
+
+input, select{ /*modificar os dois elementos do form*/
+    box-sizing: border-box; /*sem diferença entre os inputs*/
+    width: 100%; /*ficar 100% do container*/
+    padding: 10px; /*deixar mais gordinho*/
+    border: 1px solid #8b0000;
+    border-radius: 5px;
+    margin-bottom: 10px; /*colocar espaço*/
+}
+
+input[type="submit"]{
+    height: 50px;
+    color:#f0e6d2;
+    background-color: #dc143c;
+    text-transform: uppercase;
+    background-image: url(../Imagens/pena.png);
+    background-size: 35px;
+    background-repeat: no-repeat; /*nao ficar bugado repetindo lá ddentro*/
+    background-position-x:calc(100% - 10px);
+    
+}
+
+
+input::placeholder{ /*mudar o placeholder*/
+    font-style: italic;
+}
+
+select{ /*estou mudando a seta do select*/
+    appearance: none;
+    -webkit-appearance:none ;/* para ficar em todos os navegadores*/
+    -moz-appearance: none;
+    background-image: url(../Imagens/seta.png);
+    background-size: 20px;
+    background-repeat: no-repeat; /*nao ficar bugado repetindo lá ddentro*/
+    background-position-x:calc(100% - 10px);
+    background-position-y: center;
+}
+
+footer{
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px;
+}
+.lb{
+   
+    border-radius: 5px;
+    width:100%;
+   
+}
+
+
+.bio{
+    display: inline-block; /*modificando o tamanho que ela ocupa*/
+    max-width: 50%;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.h1footer{
+    font-size: 2.4em;
+    color: #f0e6d2;
+    text-transform: uppercase;
+}
+
+.h2footer{
+    color: #937341;
+    font-size: 19px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.h3footer{
+    color: #8b0000;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.pfooter{
+    color: #f0e6d2;
+    text-transform: uppercase;
+}
